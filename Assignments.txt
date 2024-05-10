@@ -1,0 +1,49 @@
+Array Destructuring : extract values from array, assign to different variables and use them later
+Object Destructuring : extract properties from objects and assign them to variables in concise way
+rest operator : take indefinite number of arguments as an array
+spread operator : used to spread values of arrays or objects where indefinite arguments are expected
+map(), filter(), reduce(), find(), sort() 
+	map() : callback and thisValue*, transform each element in an array and returns new array 		with transformed values.
+	filter() : callback and thisValue*, extract certain elements from an array that meet the 		specifications provided by the callback function
+	reduce() : callback and initialValue*, for summing up array to a single value or to get 		max/min value, reduces array to a single value
+	find() : callback and thisValue*, to get the first element that meets the criteria given by 		the testing function
+	sort() : to sort the array.
+Event Listeners : 
+call backs, 
+Promises,
+PromiseAPIs
+async await
+Scopes
+error handling - try catch
+
+
+-------------------------------------------------
+
+Learning React
+component architecture
+state, props in react
+functional components, class components
+HTTP and react, HTTP GET and POST requests
+hooks, router
+server side render, web pack, redux
+connect API with react Applications
+
+
+-------------------------------------------------
+
+
+CDN - Content Delivery Network
+
+- network of interconnected servers that speeds up the webpage loading for heavy apps. 
+- it takes a long time for data to reach from the server to the user, so the web data is stored on CDN server near to the locations of the user.
+- introduces a intermediary server between the user and the server.
+- it works on the principle of caching
+- it has several benefits such as reduced loading time, improved security, reduced bandwidth
+
+
+-------------------------------------------------
+
+To : aditi.patil@centralogic.net
+cc : nikita.bhagwani@centralogic.net
+
+-------------------------------------------------
