@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function Card() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("https://api.github.com/users/Aniket24g")
+    fetch("https://api.github.com/users/Aniket24G")
       .then((response) => response.json())
       .then((response) => {
         setData(response);
