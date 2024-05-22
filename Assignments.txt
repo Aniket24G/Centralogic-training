@@ -47,3 +47,8 @@ To : aditi.patil@centralogic.net
 cc : nikita.bhagwani@centralogic.net
 
 -------------------------------------------------
+
+15/05/2024
+props,map,filter,reusable components, passing props from one componenet to another
+
+16/05/2024
