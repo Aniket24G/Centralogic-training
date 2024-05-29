@@ -3,6 +3,8 @@ import "./App.css";
 import TodoForm from "./Components/TodoForm.jsx";
 import TodoItem from "./Components/TodoItem.jsx";
 import { TodoProvider } from "./Contexts/index";
+import Home from './Components/Home.jsx';
+import DayOne from "./Components/Classroom/DayOne";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -40,26 +42,30 @@ function App() {
   }, [todos])
 
   return (
-    <TodoProvider value={{ todos, addTodo, deleteTodo, toggleComplete }}>
-      <div className="App min-h-8 py-8">
-        <div className="w-full max-w-2l mx-auto shadow-md rounded-lg px-4 py-3 text-white">
-          <h1 className="text-2xl font-bold text-center mb-8  mt-2">
-            My Todos
-          </h1>
-          <div className="mb-4">
-            <TodoForm />
-          </div>
-          <div className="flex flex-wrap gap-y-3">
-            <hr />
-            {todos.map((todo) => (
-              <div key={todo.id} className="w-full">
-                <TodoItem todo={todo}/>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </TodoProvider>
+    // <TodoProvider value={{ todos, addTodo, deleteTodo, toggleComplete }}>
+    //   <div className="App min-h-8 py-8">
+    //     <div className="w-full max-w-2l mx-auto shadow-md rounded-lg px-4 py-3 text-white">
+    //       <h1 className="text-2xl font-bold text-center mb-8  mt-2">
+    //         My Todos
+    //       </h1>
+    //       <div className="mb-4">
+    //         <TodoForm />
+    //       </div>
+    //       <div className="flex flex-wrap gap-y-3">
+    //         <hr />
+    //         {todos.map((todo) => (
+    //           <div key={todo.id} className="w-full">
+    //             <TodoItem todo={todo}/>
+    //           </div>
+    //         ))}
+    //       </div>
+    //     </div>
+    //   </div>
+    // </TodoProvider>
+    <>
+    {/* <Home /> */}
+    <DayOne />
+    </>
   );
 }
 
