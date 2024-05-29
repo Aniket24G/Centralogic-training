@@ -19,9 +19,9 @@ const SpendItem = (props) => {
       {props.title}
       <div className=" w-1/6 flex justify-between font-semibold mr-2 px-2.5 py0.5 rounded border-b border-blue-700">
         <div>{props.amount}</div>
-        <div>
+        {/* <div>
           <button onClick={deleteItem}>🗑</button>
-        </div>
+        </div> */}
       </div>
     </li>
     </div>
