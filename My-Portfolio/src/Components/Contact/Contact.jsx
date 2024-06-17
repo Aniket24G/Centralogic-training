@@ -48,7 +48,7 @@ function Contact() {
           <label className="uppercase text-sm font-noto">Message</label>
           <textarea className="border-2 rounded-lg p-3 border-gray-200" name="message" id="" cols="30" rows="10"></textarea>
         </div>
-        <button className="bg-primaryText text-gray-200 font-noto mt-4 p-4 rounded-lg w-1/4">Send</button>
+        <button className="bg-primaryText text-gray-200 font-noto mt-4 p-2 rounded-lg w-1/4">Send</button>
       </form>
     </div>
   );

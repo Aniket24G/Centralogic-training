@@ -7,7 +7,7 @@ function Work() {
       year: 2022,
       title: "Intern",
       company: "Infosys Springboard",
-      desc: "Developed a football analyytics website with a team 13 members",
+      desc: "Developed a football analytics website with a team 13 members",
       tech: "AngularJs, NodeJs, PostgreSql",
     },
     {

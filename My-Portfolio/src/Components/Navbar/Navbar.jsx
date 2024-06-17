@@ -6,7 +6,6 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
-import { BsPerson } from "react-icons/bs";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
